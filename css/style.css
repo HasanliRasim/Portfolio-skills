@@ -1,0 +1,113 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #34353a;
+}
+
+.header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header_ul {
+  display: flex;
+  list-style-type: none;
+}
+.header .header_ul .ul_list {
+  margin-left: 25px;
+  color: #707175;
+  font-weight: bold;
+}
+.header .input {
+  border: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: #707175;
+}
+.header .input::placeholder {
+  color: #34353a;
+  font-weight: bold;
+}
+
+.section {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+.section .section_div {
+  margin-top: 90px;
+}
+.section .section_div .name {
+  font-size: 60px;
+  color: #ffca6b;
+}
+.section .section_div .text {
+  font-size: 40px;
+  color: #707175;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.section .section_div .button {
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 4px solid #ffca6b;
+  background-color: #34353a;
+  color: #ffca6b;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section .section_div .icon {
+  margin-top: 30px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.skill_section {
+  text-align: center;
+}
+.skill_section .html {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+  width: 0;
+  background-color: #4caf50;
+  position: absolute;
+  transition: all 2s linear;
+}
+.skill_section .sass {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+  width: 0;
+  background-color: #ce6b9c;
+  position: absolute;
+  transition: all 2s linear;
+}
+.skill_section .js {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+  width: 0;
+  background-color: #ffd708;
+  position: absolute;
+  transition: all 2s linear;
+}
+.skill_section .container {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
